@@ -7,7 +7,8 @@
 修改步骤：
 1. 找出需要修改的键位
 1. 替换=后的名称
-1. 刷新配置文件 xmodmap "文件名"
+1. 刷新配置文件 xmodmap "文件名"  
+注：使用xev可以查看按的键的keycode
 
 例如修改Caps Lock和Esc键
 1. 找出两个键位的keycode
