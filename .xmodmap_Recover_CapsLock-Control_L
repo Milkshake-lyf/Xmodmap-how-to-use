@@ -1,0 +1,10 @@
+! 恢复CapsLock 和 Control_L
+! 因为已经交换了一次，再次重新交换即可
+remove Lock = Caps_Lock
+remove Control = Control_L
+
+keysym Control_L = Caps_Lock
+keysym Caps_Lock = Control_L
+
+add Lock = Caps_Lock
+add Control = Control_L
